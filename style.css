@@ -1,0 +1,80 @@
+<style>
+
+        *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+        body {
+            background-color: rgb(48, 48, 48);
+            padding: 90px;
+            font-size: 15px;
+            line-height: 35px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        p {
+            color:rgb(167, 255, 255);
+            text-align: center;
+        }
+
+        a {
+            color: rgb(255, 0, 149);
+            text-decoration: none;
+            
+            
+        }
+
+        h2 {
+            text-align: center;
+            color: rgb(227, 120, 255);
+        }
+
+        h1 {
+            text-align: center;
+            color: rgb(227, 120, 255);
+        }
+
+        img {
+            border-radius: 50%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 300px; 
+        }
+
+        .header {
+            position:fixed;
+
+        }
+
+        #menu{
+            position: fixed;
+            top: 0;
+            left: 0px;
+            width: 100%;
+            height: 90px;
+            background-color: rgb(32, 32, 32);
+
+        }
+
+        div ul {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            height: 100%;
+            margin: 0;
+            font-size: 165%;
+        }
+
+        li {
+            margin-right: auto;
+            margin-left: auto;
+            color: rgb(255, 174, 255);
+            text-align: center;
+            list-style-type:none;
+        }
+
+        a:hover { background-color:rgb(32, 32, 32);}
+    </style>
